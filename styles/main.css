@@ -26,7 +26,7 @@ h1 {
 }
 
 .answers-list {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 .answers-list li + li {
@@ -43,7 +43,7 @@ h1 {
 .answers-list a:hover,
 .answers-list a:focus {
   color: var(--link-color_hover);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .answers-list a::before {
