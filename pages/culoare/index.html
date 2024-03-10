@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Culoare in css</title>
-    <style type="text/css">
-      .text-colorat {
-        color: DarkSlateBlue;
-      }
 
-      div {
-        margin-top: 16px;
-        color: rgb(0, 0, 255);
-        border: 1px dashed currentColor;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Culoare in css</title>
+  <style type="text/css">
+    .text-colorat {
+      color: rgb(139, 61, 139);
+    }
 
-      .transparenta-container {
-        background: #fff000;
-        height: 200px;
-        padding-top: 16px;
-        margin-top: 16px;
-      }
+    div {
+      margin-top: 32px;
+      color: rgb(0, 195, 255);
+      border: 1px dashed currentColor;
+    }
 
-      .transparenta {
-        background: rgba(255, 0, 255, 0.78);
-        /* background: red;
+    .transparenta-container {
+      background: #fff000;
+      height: 100px;
+      padding-top: 16px;
+      margin-top: 32px;
+    }
+
+    .transparenta {
+      background: rgba(255, 0, 55, 0.5);
+      /* background: red;
         opacity: 0.1; */
-      }
-    </style>
-  </head>
-  <body>
-    <span class="text-colorat">Textul va fi colorat</span>
+    }
+  </style>
+</head>
 
-    <div>
-      Culoarea acestui text este albastra.
-      <p style="background: currentcolor; height: 9px"></p>
-      Acest div are o 'bordura' albastra.
-    </div>
+<body>
+  <span class="text-colorat">Textul va fi colorat</span>
 
-    <section class="transparenta-container">
-      <p class="transparenta">Test aici</p>
-    </section>
-  </body>
+  <div>
+    Culoarea acestui text este albastra.
+    <p style="background: currentcolor; height: 9px"></p>
+    Acest div are o 'bordura' albastra.
+  </div>
+
+  <section class="transparenta-container">
+    <p class="transparenta">Test aici</p>
+  </section>
+</body>
+
 </html>
